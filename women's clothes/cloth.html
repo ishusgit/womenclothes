@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovely Fashion</title>
+    <link rel="stylesheet" href="cloth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+    
+     @media (min-width:320px) and (max-width: 767px) {
+       
+    .wrap {
+        display:flex;
+        flex-direction:column;
+        background-color:transparent;
+        justify-content:center;
+        width:auto;
+          }
+          section{
+            margin-top:-20px;
+          }
+    .content-center img{
+            display:none;
+          }
+          .content-right{
+            display:none;
+          }
+          .toggle{
+            display:none;
+          }
+          section .last{
+            width:320px;
+          }
+          .section1{
+            flex-direction:column;
+            display:flex;
+            position:relative;
+            margin-top:0;
+          }
+          .section1 img{
+            position:absolute;
+            margin-left:10px;
+            margin-top:0;
+          }
+          .container{
+            flex-direction:column;
+            margin-top:100px;
+          }
+          .container .card1{
+            width:300px;
+            height:250px;
+            flex-direction:column;
+            margin-left:auto;
+          }
+          .container .card1 img{
+            width:160px;
+            height:160px;
+            transform:translateX(50px);
+          }
+          .container .card1 .content{
+            top:-90px;
+          }
+  }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Crete+Round:ital@0;1&family=Great+Vibes&family=Hurricane&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&family=Lobster&family=Lobster+Two:ital,wght@0,700;1,700&family=Merriweather+Sans:wght@600&family=Monoton&family=Open+Sans:wght@700&family=Pacifico&family=Patua+One&family=Playball&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@400;500;600;700&family=Redressed&family=Roboto+Serif:opsz,wght@8..144,600;8..144,700&family=Roboto+Slab:wght@400;500;800&family=Roboto:wght@400;500;700;900&family=Rowdies:wght@300&family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <ul class="circle">
+        <li class="blue"></li>
+        <li class="red"></li>
+        <li class="green"></li>
+        <li class="yellow"></li>
+        <li class="blue"></li>
+        <li class="red"></li>
+        <li class="green"></li>
+        <li class="yellow"></li>
+    </ul>
+   <header>
+       <div class="logo">
+           <img src="cloth logo.png" alt="logo">
+       </div>
+       <nav>
+           <ul>
+               <li><a href="#" class="login">log in</a></li>
+               <li><a href="#" class="register">register</a></li>
+           </ul>
+       </nav>
+   </header>
+   <main>
+       <div class="content-left">
+            <h1>Lovely</h1>
+            <h1>fashion</h1>
+            <p>If everyone could just wear new clothes
+               everyday. <br> I reckon depression wouldn’t exist anymore.</br>
+               The human body is the best work of art.</p>
+            <button class="btn">
+                shop now
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button> 
+       </div>
+       <div class="content-center">
+           <img src="main cloth img.png" alt="img" class="img" width="310px;" height="590px;">
+
+       </div>
+       <div class="content-right">
+           <div class="navigation">
+            <div class="ball">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+               <ul>
+                   <li class="list active">
+                       <b></b>
+                       <b></b>
+                       <a href="#">
+                           <span class="icon">
+                              <img src="ladies.png" alt="home" width="56px;" height="56px;"> 
+                           </span>
+                           <span class="title">Home</span>
+                       </a>
+                   </li>
+                   <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon">
+                           <img src="children.png" alt="child" width="58px;" height="58px;"> 
+                        </span>
+                        <span class="title">childrens</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                       <b></b>
+                    <a href="#">
+                        <span class="icon">
+                          <img src="girls.png" alt="girls" width="56px;" height="58px;">  
+                        </span>
+                        <span class="title">girls</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                       <b></b>
+                    <a href="#">
+                        <span class="icon">
+                            <img src="ladies.png" alt="ladies" width="56px;" height="56px;">
+                        </span>
+                        <span class="title">ladies</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                       <b></b>
+                    <a href="#">
+                        <span class="icon">
+                            <img src="girls.png" alt="womens" width="56px;" height="58px;">
+                        </span>
+                        <span class="title">womens</span>
+                    </a>
+                </li>
+               </ul>
+            </div>
+       </div>
+       <div class="toggle">
+        <ion-icon name="menu" class="open"></ion-icon>
+        <ion-icon name="close" class="close"></ion-icon>
+       </div>
+   </main>
+   <section class="wrap" style="display:flex;">
+    <div class="first">
+        <h1>childrens<img src="childion.png" alt="childion" width="50px;" height="60px;"> 
+        </h1>
+         <p>Fashion for children is the <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;best bright color.</p>     
+    </div>
+    <div class="middle">
+        <img src="girlsion.png" alt="girlsion" width="80px;" height="90px;"><h1>girls fashion</h1>
+    </img>
+        <p>keep calm love fashion<img src="smile.png" alt="smile" width="50px;" height="50px;"></p>
+    </div>
+    <div class="third">
+        <img src="ladiesion.png" alt="ladiesion" width="80px;" height="90px;"><h1>
+        ladies styles</h1>
+        <p>Our goal is to put the "fun" in <br>functional fashion.</p>
+         
+    </div>
+    <div class="last">
+        <h1>womens fashion<img src="womension.png" alt="womension" width="80px;" height="75px;"></h1>
+        <div class="imgp">
+        <img src="shoes.png" alt="shoe" width="50px;" height="40px;"><p>Wear what you love.</p>
+    </div>
+        <div class="imgpp">
+           <p>Buy less, choose well. <img src="gift.png" alt="gift" width="30px;" height="30px;"></p>
+        </div>
+    </div>
+</section>
+<div class="section1">
+    <div class="img">
+        <img src="children2main.png" alt="childmain" width="300px;" height="350px;">
+    </div>
+    <div class="content">
+        <h1>children collections<img src="flowers.png" alt="flower" width="70px;" height="40px;"></h1>
+        <p>Children's clothing or kids' clothing is clothing 
+           for children who have not yet grown to full height. 
+           Children's clothing is often more casual than adult clothing,
+           fit for play and rest.</p>
+        <button class="button">explore <img src="childarrow.png" alt="childarrow" width="35px;" height="20px;"></button>
+    </div>
+</div>
+<div class="container">
+    <div class="card1">
+        <div class="img">
+        <img src="childmaincard1.png" alt="baby" width="180px;" height="250px;">
+        <span class="price">price: $50</span>
+        </div>
+        
+        <div class="content">
+        <h1>LOUIS VUITTON</h1>
+        <p>Your glamour and charm is governed by the brand you’re
+           walking in and how you carry it. </p>
+         <div class="buttons">  
+        <button class="bn">buy now</button>
+        
+        <img src="star.png" alt="star" width="22px;" height="22px;">
+        <img src="star.png" alt=""  width="22px;" height="22px;">
+        <img src="star.png" alt=""  width="22px;" height="22px;">
+        <img src="star.png" alt=""  width="22px;" height="22px;">
+        <img src="star.png" alt=""  width="22px;" height="22px;">
+    </div>
+    </div>
+    </div>
+    <div class="card2">
+        <div class="content">
+        <h1>Inditex (Zara)</h1>
+        <p>Zara is a Spanish clothes and accessories brand, 
+           it is the flagship brand of the Inditex group</p>
+        <div class="buttons"> 
+        <button class="bn">buy now</button>
+        <img src="star.png" alt="star" width="22px;" height="22px;">
+        <img src="star.png" alt=""  width="22px;" height="22px;">
+        <img src="star.png" alt=""  width="22px;" height="22px;">
+        <img src="star.png" alt=""  width="22px;" height="22px;">
+        <img src="star.png" alt=""  width="22px;" height="22px;">
+    </div>
+    </div>
+    <div class="img">
+        <img src="childcard2main.png" alt="baby" width="190px;" height="260px;">
+        <span class="price">price: $70</span>
+    </div>
+</div>
+</div>
+<div class="section2">
+    <div class="img">
+        <img src="girlsstylemain.png" alt="childmain" width="450px;" height="450px;">
+    </div>
+    <div class="content">
+        <h1>girls fashion<img src="flower2.png" alt="flower" width="70px;" height="40px;"></h1>
+        <p>Stylish clothes for girls of young ages in the form of dresses 
+           are represented by casual and evening styles.</p>
+        <button class="button">explore <img src="greenarrow.png" alt="childarrow" width="50px;" height="30px;"></button>
+    </div>
+</div>
+</div>
+<div class="container1">
+    <div class="card1">
+        <div class="face face1">
+            <div class="content">
+                <img src="girlcard2main.png" alt="girl2" width="200px;" height="200px;">
+                <h2>Janie and Jack</h2>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>This reliable brand makes everything from adorable 
+                    pint-sized swimsuits to cozy faux fur-lined dresses.
+                    </p>
+                    <a href="">buy now</a>
+            </div>
+        </div>
+    </div>
+    <div class="card2">
+        <div class="face face1">
+            <div class="content">
+               <img src="girlcard22main.png" alt="girl22" width="200px;" height="200px;">
+               <h2>Levi’s</h2>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+               <p>Everyone deserves a pair of sturdy, well-fitting, stylish jeans! 
+                  Start ’em young in Levi’s denim with a range of items. </p>
+                 <a href="">buy now</a> 
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section3">
+    <div class="img">
+        <img src="ladiesmainmain.png" alt="ladiesmainmain" width="280px;" height="390px;">
+    </div>
+    <div class="content">
+        <h1>ladies styles<img src="flower1.png" alt="flower" width="75px;" height="75px;"></h1>
+        <p>The clothes are created in a way that they look more sophisticated 
+           and expensive than they actually are. They have a unique formals
+           section for women including button-downs, suits, blazers and denim.</p>
+        <button class="button">explore <img src="ladies arrow.png" alt="ladieslarrow" width="35px;" height="20px;"></button>
+    </div>
+</div>
+<div class="container2">
+    <div class="card1">
+        <img src="lady11card1main.png" alt="lady11card1" width="90px;" height="110px;">
+        <div class="content">
+            <h1>Dolce & Gabbana</h1>
+            <p>Today these fashion brands have become a part of our 
+               daily lifestyle is booming these are adding to wardrobe.</p>
+            <a href="#">buy now</a>
+        </div>
+    </div>
+    <div class="card2">
+        <img src="lady1card2main.png" alt="lady1card2" width="130px;" height="200px;">
+        <div class="content">
+            <h1>RALPH LAUREN</h1>
+            <p>Top western wear brands have adapted to new techniques
+               could make their brand more affordable.
+               </p>
+            <a href="#">buy now</a>
+        </div>
+    </div>
+</div>
+<div class="section4">
+    <div class="img">
+        <img src="womenmains.png" alt="womenmainmain" width="330px;" height="450px;">
+    </div>
+    <div class="content">
+        <h1>womens styles<img src="womenmain.png" alt="women" width="70px;" height="50px;"></h1>
+        <p>The lastest women’ fashion trend reports from Paris, Milan, 
+            New York and London fashion weeks. 
+            style inspiration to the runways, here are the top fashion
+            trends spotted at ten Top Fashion Trends From Copenhagen Fashion week.
+        </p>
+        <button class="button">explore <img src="womenarrow.png" alt="womenlarrow" width="39px;" height="19px;"></button>
+    </div>
+</div>
+<div class="container3">
+    <div class="card1">
+        <div class="img">
+            <img src="womencard1main.png" alt="women1card1" width="180px;" height="150px;">
+        </div>
+        <div class="content">
+            <h1>Gaia Mini Dress</h1>
+            <p>Whether you're searching for trendy styles to update your 
+                look or tried-and-true classics you'll love forever.</p>
+            <button class="b1">buy now</button>
+        </div>
+    </div>
+    <div class="card2">
+        <div class="img">
+            <img src="women22card2main.png" alt="women22card2" width="100px;" height="150px;">
+        </div>
+        <div class="content">
+            <h1>Manish Malhotra</h1>
+            <p>This is one the most graceful and elegant dresses 
+                which cover the woman’s entire body.</p>
+            <button class="b2">buy now</button>
+        </div>
+    </div>
+    <div class="card3">
+        <div class="content">
+            <h1>patrorna</h1>
+            <p>Women's Churidar from India made by lycra, a soft and 
+                stretchable fabric for comfortable to dresses. 
+            </p>
+            <button class="b3">buy now</button>
+        </div>
+        <div class="img">
+            <img src="womencard3main.png" alt="women3card3" width="180px;" height="170px;">
+        </div>
+    </div>
+</div>
+<div class="section5">
+    <div class="content">
+        <h1>winter collection<img src="wintyimg.png" alt="women" width="60px;" height="60px;"></h1>
+        <p>Winter clothing are clothes used for protection against
+           the particularly cold weather of winter.Often they
+           have a good water resistance, consist of multiple layers
+           to protect and insulate against low temperatures.</p>
+           <button class="button">explore <img src="ladies arrow.png" alt="ladieslarrow" width="35px;" height="20px;"></button>
+    </div> 
+    <div class="img">
+        <img src="snowmain.png" alt="wint" width="370px;" height="400px;">
+    </div>
+</div>
+<div class="container4">
+    <div class="card1">
+        <div class="img">
+            <img src="wintercard1.png" alt="wintercard1" width="130px;" height="130px">
+        </div>
+        <div class="content">
+            <h1>Eddie Bauer</h1>
+            <p>One of the most frequently picked by the customers is Eddie Bauer jackets.
+               The reason for this is the great quality of the materials.</p>
+            <div class="price">
+                <span>price: $180</span>
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+            </div>
+        </div>
+        <div class="btnss">
+            <span>buy now</span>
+        </div>
+    </div>
+    <div class="card2">
+        <div class="img">
+            <img src="wintercard2.png" alt="wintercard1" width="140px;" height="100px">
+        </div>
+        <div class="content">
+            <h1>Everlane</h1>
+            <p>This is an excellent choice that made cruelty free with ethics on their minds, 
+               these coats increasing in models are very classical.</p>
+            <div class="price">
+                <span>price: $140</span>
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+            </div>
+        </div>
+        <div class="btnss">
+            <span>buy now</span>
+        </div>
+    </div>
+    <div class="card3">
+        <div class="img">
+            <img src="wintercard3.png" alt="wintercard3" width="140px;" height="140px">
+        </div>
+        <div class="content">
+            <h1>Canada goose</h1>
+            <p>This brand have a very long history of making winter jackets
+               and they are always picked by customers for their quality.</p>
+            <div class="price">
+                <span>price: $165</span>
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+                <img src="star.png" alt="" width="18px;" height="18px;">
+            </div>
+        </div>
+        <div class="btnss">
+            <span>buy now</span>
+        </div>  
+    </div>
+</div>
+<div class="section6">
+    <div class="img">
+        <img src="summermain.png" alt="summermain" width="350px;" height="370px;">
+    </div>
+    <div class="content">
+        <h1>summer collections <img src="umbrelasummer.png" alt="umbrela" width="70px;" height="70px;"></h1>
+        <p>Women's Summer Collection PRADA Linea Rossa Women's 
+           Summer Collection vibrant hues juxtapose for a color 
+           block effect in this special<img src="summerglass.png" alt="summerglass" width="80px;" height="30px;">collection dedicated to summer,
+           adding a burst of energy to flowing silk ready-to-wear and raffia accessories.</p>
+        <button class="button">explore <img src="summerarrow.png" alt="summerarrow" width="39px;" height="19px;"></button>
+    </div>
+</div>
+<div class="container5">
+    <div class="card1">
+       <div class="part">
+           <img src="summercard1main.png" alt="summercard1" width="95px;" height="80px;">
+            <h1>ella moss</h1>
+            <p>When it comes to summer brands that combine chic,refined style with 
+              high quality is always a go-to.</p>
+            <button class="bns">buy now</button>    
+       </div>
+       <span>$45</span>
+    </div>
+    <div class="card2">
+        <div class="part">
+            <img src="summercard2main.png" alt="summercard2" width="95px;" height="80px;">
+            <h1>lily pultizer</h1>
+            <p>Lilly has been the undisputed queen of summer fashion as long as we can remember.
+               Dress yourself in floral kaftans.</p>
+            <button class="bns">buy now</button>  
+        </div>
+        <span>$50</span>
+    </div>
+    <div class="card3">
+        <div class="part">
+            <img src="summercard3main.png" alt="summercard3" width="95px;" height="80px;">
+            <h1>madewell</h1>
+            <p> This brand perfectly-fitted capsule collections like Alexa
+                labels plenty of classic-with-a-twist essentials.</p>
+            <button class="bns">buy now</button>  
+        </div>
+        <span>$65</span>
+    </div>
+</div>
+<div class="container6">
+    <div class="card1">
+        <div class="left">
+            <h1>lovely fashion</h1>
+        </div>
+        <div class="right">
+            <h1>register</h1>
+            <form action="#">
+                <label for="name">Username</label>
+                <input type="text">
+                <label for="name">Email</label>
+                <input type="email">
+                <label for="name">password</label>
+                <input type="password">
+                <label for="name">Mobile number</label>
+                <input type="number">
+            </form>
+            <button id="buttonss">create an account</button>
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="left">
+            <h1>login</h1>
+            <form action="#">
+                <label for="name">email</label>
+                <input type="email">
+                <label for="name">password</label>
+                <input type="password">
+            </form>
+            <button id="buttonss">login</button>
+            <div class="anchor">
+             <a href="">forget password?</a>
+             <a href="">create an account</a>
+            </div>
+        </div>
+        <div class="right">
+            <h1>explore now!</h1>
+        </div>
+    </div>
+   </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+     let menuToggle= document.querySelector('.toggle');
+     let navigation= document.querySelector('.navigation')
+     menuToggle.onclick = function(){
+         menuToggle.classList.toggle('active')
+         navigation.classList.toggle('active')
+     }
+
+
+
+    //add active class in selected list item
+    let list=document.querySelectorAll('.list');
+    for(let i=0; i<list.length; i++){
+        list[i].onclick=function(){
+            let j = 0;
+            while(j < list.length){
+                list[j++].className ='list';
+            }
+            list[i].className = 'list active'
+        }
+    }
+
+
+</script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+</html>
